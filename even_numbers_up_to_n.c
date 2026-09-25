@@ -4,7 +4,7 @@ int main()
 {
    int number, even_counter;
    
-   printf("Up to which number you want to print even number ? ");
+   printf("up to which number you want to print even number ? ");
    scanf("%i", &number);
    printf("The even numbers up to %i are ", number);
    even_counter = 0;
