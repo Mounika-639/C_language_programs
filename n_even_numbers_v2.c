@@ -10,10 +10,10 @@ int main()
     counter = 0;
     while (counter != number - 1)
     {
-        printf("%i, ",2 * counter);
+        printf("%i, ", 2 * counter);
         counter = counter + 1;
     }
     printf("%i.\n", (2 * counter));
- 
+
     return 0;
 }
