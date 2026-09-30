@@ -2,11 +2,11 @@
 
 int main()
 {
-    int number, counter, result, iterable ;
-  
-    printf("Up to which number you want to print x^x series ? ");
+    int number, counter, result, iterable;
+
+    printf("Up to which number you want to print the N power N series? ");
     scanf("%i,", &number);
-    printf("The x^x series up to %i is 1", number);
+    printf("The N power N series up to %i is 1", number);
     counter = 1;
     result = 1;
     iterable = 2;
