@@ -4,6 +4,7 @@ int main()
 {
     int num1, num2, temp;
   
+    printf("To campare two numbers and print which number is greater. \n");
     printf("Enter the first number: ");
     scanf("%i", &num1);
     printf("Enter the second number: ");
@@ -14,7 +15,7 @@ int main()
         num1 = num2;
         num2 = temp;
    }
-   printf("%i is bigger than %i.\n", num1, num2);
+   printf("%i is greater than %i.\n", num1, num2);
 
    return 0;
 }
