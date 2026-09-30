@@ -3,9 +3,9 @@ int main()
 {
     int naturalnumber, count;
   
-    printf("Up to which number you want to print natural number? ");
+    printf("Up to which number you want to print natural numbers? ");
     scanf("%i", &naturalnumber);
-    printf("The natural numbers up to %i are ", naturalnumber);
+    printf("The first %i natural numbers are ", naturalnumber);
     count = 1;
     while (count < naturalnumber)
     {
